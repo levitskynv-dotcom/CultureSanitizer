@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+    <Name value="Culture Sanitizer"/>
+    <Id value="CultureSanitizer"/>
+    <Version value="v1.0.0"/>
+    <DefaultModule value="false"/>
+    <ModuleCategory value="Community"/>
+    <DependedModules>
+        <DependedModule Id="Native"/>
+    </DependedModules>
+    <SubModules>
+        <SubModule>
+            <Name value="CultureSanitizer"/>
+            <DLLName value="CultureSanitizer.dll"/>
+            <SubModuleClassType value="CultureSanitizer.SubModule"/>
+            <Tags/>
+        </SubModule>
+    </SubModules>
+    <DedicatedServerSubModules/>
+</Module>
